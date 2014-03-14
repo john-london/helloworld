@@ -30,7 +30,7 @@
 - (void)testExample
 {
     int rc = functionToTest();
-    XCTAssert(rc == 1, @"functionToTest == 1 \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssert(rc == 1, @"functionToTest == %d, should == 1 \"%s\"", rc, __PRETTY_FUNCTION__);
 }
 
 @end
