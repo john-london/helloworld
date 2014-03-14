@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFuntionToTest
 {
     int rc = functionToTest();
     XCTAssert(rc == 1, @"functionToTest == %d, should == 1 \"%s\"", rc, __PRETTY_FUNCTION__);
