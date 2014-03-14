@@ -9,5 +9,5 @@
 #include <stdio.h>
 
 int functionToTest() {
-    return 1;
+    return 0; // changed to 0 to cause build to break
 }
