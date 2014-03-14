@@ -8,11 +8,14 @@
 
 #include <stdio.h>
 
+#include "functionToTest.h"
+
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     printf("Hello, World!\nThat was a painful Github setup.Blahblah.\n");
+    printf("functionToTest=%d\n", functionToTest());
     return 0;
 }
 
