@@ -27,10 +27,15 @@
     [super tearDown];
 }
 
-- (void)testFuntionToTest
+- (void)testFunctionToTest
 {
     int rc = functionToTest();
     XCTAssert(rc == 1, @"functionToTest == %d, should == 1 \"%s\"", rc, __PRETTY_FUNCTION__);
+}
+
+- (void)testsecondtest
+{
+    XCTFail(@"This test wil always fail\"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
